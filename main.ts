@@ -2,12 +2,12 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("Iris !")
 })
 input.onButtonPressed(Button.AB, function () {
-    basic.showString("Bazigou!")
+    basic.showString("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showString("Chloe!")
+    basic.showString("CHLOE!")
 })
-basic.showArrow(ArrowNames.North)
+music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.InBackground)
 basic.forever(function () {
 	
 })
