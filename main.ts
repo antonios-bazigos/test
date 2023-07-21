@@ -1,8 +1,11 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showArrow(ArrowNames.West)
+    basic.showString("Iris !")
+})
+input.onButtonPressed(Button.AB, function () {
+    basic.showString("Bazigou!")
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showArrow(ArrowNames.East)
+    basic.showString("Chloe!")
 })
 basic.showArrow(ArrowNames.North)
 basic.forever(function () {
